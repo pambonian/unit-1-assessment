@@ -50,11 +50,11 @@ function interaction () {
     })
     subtractButton.addEventListener('mouseover', function() {
         subtractButton.style.color = "grey";
-        subtractButton.style.color = "white";
+        subtractButton.style.background = "white";
     })
     subtractButton.addEventListener('mouseleave', function() {
         subtractButton.style.color = "white";
-        subtractButton.style.color = "grey";
+        subtractButton.style.background = "grey";
     })
 }
 
